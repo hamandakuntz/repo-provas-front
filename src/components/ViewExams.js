@@ -2,8 +2,9 @@ import { Container } from "./Home"
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 
-
 export default function ViewExams() {
+
+
     return (
         <Container>
             <div>Visualizar provas por:</div>

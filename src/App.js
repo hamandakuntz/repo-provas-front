@@ -5,6 +5,7 @@ import SendExam from "./components/SendExam.js"
 import ViewExams from "./components/ViewExams.js"
 import Teachers from "./components/Teachers";
 import Subjects from "./components/Subjects";
+import SubjectPage from "./components/SubjectPage";
 
 export default function App() {
     return (
@@ -15,6 +16,7 @@ export default function App() {
                 <Route path="/send" component={SendExam} exact/>
                 <Route path="/teachers" component={Teachers} exact/>
                 <Route path="/subjects" component={Subjects} exact/>
+                <Route path="/subject/:id" component={SubjectPage} exact/>
             </Switch>            
         </BrowserRouter>        
     )  
